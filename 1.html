@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Intoduction to Web</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="1.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+       <div class="a"><button class="btn">contact</button>
+    <button>about</button>
+    <a href="#table1"><button>table of content</button></div></a>
+        <div class="b"><h1>Intoduction to Web</h1>
+        <p>Web consists of billions of clients and server connected through wires and wireless networks. The web clients make requests to web server. The web server receives the request, finds the resources and return the response to the client. When a server answers a request, it usually sends some type of content to the client. The client uses web browser to send request to the server. The server often sends response to the browser with a set of instructions written in HTML(HyperText Markup Language). All browsers know how to display HTML page to the client.There exist <b><a href="#2">web side</a> and <a href="#1">server side concept</a></b>Internet is a global communication system that links together thousands of individual networks. It allows exchange of information between two or more computers on a network. Thus internet helps in transfer of messages through mail, chat, video & audio conference, etc. It has become mandatory for day-to-day activities: bills payment, online shopping and surfing, tutoring, working, communicating with peers, etc.
+
+            In this topic, we are going to discuss in detail about concepts like basics of computer networks, Local Area Network (LAN), Wide Area Network (WAN), concept of internet, basics of internet architecture, services on internet, World Wide Web and websites, communication on internet, internet services, preparing computer for internet access, ISPs and examples (Broadband/Dialup/Wi-Fi), internet access techniques, web browsing software, popular web browsing software, configuring web browser, search engines, popular search engines/search for content, accessing web browser, using favorites folder, downloading web pages and printing web pages.Then along came e-commerce (electronic commerce)-the idea that compa-nies could sell anything on the Web. For e-commerce, companies need to display product listings and availability, take orders, accept credit cards, schedule deliver-ies, track user contact information, and so on. This requires much more than static Web pages; it requires Web applications that can display information contained in a database or other file, react to user selections, and store user-entered information. Soon, many other industries were providing Web applications. Most banks now allow you to view your account and pedorm financial transactions on the Web. You can order pizza, book airline tickets, buy flowers, download your favorite music, check on your stocks ... the list goes on and on. As more and more people worked with these Web applications, it became apparent that the same type of functionality could be used for internal business applications. Instead of building Microsoft Windows or X-Wmdows applications that require deployment on user desktops or building mainframe applications that pro-vide limited flexibility, companies can build Web-like applications that run on their private networks. Anyone with access to the company network can then access the applications and pedorm business functions such as tracking customers, entering expense reports, reviewing company policies, changing company benefit infor-mation, managing the quarterly budget, or producing invoices. This book takes you through the process ofbuildingWeb applications. It starts by describing how to create static pages and then covers technologies for adding interactivity to your pages. It also covers how to build Web pages.</p>
+            <h3 class="tblh">table of content</h3>
+            <table id="table1">
+            <tr>
+            <td>1.</td>
+            <td><a href="#img1">Client server concept</a></td>
+            </tr>
+            <tr>
+            <td>2.</td>
+            <td><a href="#3">Components of web application</td>
+            </tr>
+            <tr>
+            <td>3.</td>
+            <td><a href="#4">Type of web content</td>
+            </tr>
+            <tr>
+            <td>4.</td>
+            <td><a href="#5">Overview of http-http request response</td>
+            </tr>
+            <tr>
+            <td>5.</td>
+            <td><a href="#6">Generation of dynamic web page</td>
+            </tr>
+            <tr>
+            <td>6.</td>
+            <td><a href="#7">Application Server</td>
+            </tr>
+            <tr>
+            <td>7.</td>
+            <td><a href="#8">Web security</td>
+            </tr>
+            </table>
+		
+            </div>
+            <div class="c"><h4>Server concept</h4>
+                <p id="1">
+                    Typically, a server is a computer application, such as a web server, that runs on a remote server, reachable from a user's local computer, smartphone, or other device. Operations may be performed server-side because they require access to information or functionality that is not available on the client, or because performing such operations on the client side would be slow, unreliable, or insecure.
+                    Client and server programs may be commonly available ones such as free or commercial web servers and web browsers, communicating with each other using standardized protocols. Or, programmers may write their own server, client, and communications protocol which can only be used with one another.Server-side operations include both those that are carried out in response to client requests, and non-client-oriented operations such as maintenance tasks. In the earlier days of the web, server-side scripting was almost exclusively performed by using a combination of C programs, Perl scripts, and shell scripts using the Common Gateway Interface (CGI). Those scripts were executed by the operating system, and the results were served back by the webserver. Many modern web servers can directly execute on-line scripting languages such as ASP, JSP, Perl, PHP and Ruby either by the web server itself or via extension modules (e.g. mod_perl or mod_php) to the webserver. For example, WebDNA includes its own embedded database system. Either form of scripting (i.e., CGI or direct execution) can be used to build up complex multi-page sites, but direct execution usually results in less overhead because of the lower number of calls to external interpreters.
+                    
+                    Dynamic websites sometimes use custom web application servers, such as Glassfish, Plack and Python's "Base HTTP Server" library, although some may not consider this to be server-side scripting. When using dynamic web-based scripting techniques, developers must have a keen understanding of the logical, temporal, and physical separation between the client and the server. For a user's action to trigger the execution of server-side code, for example, a developer working with classic ASP must explicitly cause the user's browser to make a request back to the webserver.
+                    
+                    Server-side scripts are completely processed by the servers instead of clients. When clients request a page containing server-side scripts, the application server processes the scripts and returns an HTML page to the client. 
+                    In the earlier days of the web, server-side scripting was almost exclusively performed by using a combination of C programs, Perl scripts, and shell scripts using the Common Gateway Interface (CGI). Those scripts were executed by the operating system, and the results were served back by the webserver. Many modern web servers can directly execute on-line scripting languages such as ASP, JSP, Perl, PHP and Ruby either by the web server itself or via extension modules (e.g. mod_perl or mod_php) to the webserver. For example, WebDNA includes its own embedded database system. Either form of scripting (i.e., CGI or direct execution) can be used to build up complex multi-page sites, but direct execution usually results in less overhead because of the lower number of calls to external interpreters.
+                    
+                    Dynamic websites sometimes use custom web application servers, such as Glassfish, Plack and Python's "Base HTTP Server" library, although some may not consider this to be server-side scripting. When using dynamic web-based scripting techniques, developers must have a keen understanding of the logical, temporal, and physical separation between the client and the server. For a user's action to trigger the execution of server-side code, for example, a developer working with classic ASP must explicitly cause the user's browser to make a request back to the webserver.
+                    
+                    Server-side scripts are completely processed by the servers instead of clients. When clients request a page containing server-side scripts, the application server processes the scripts and returns an HTML page to the client. In the earlier days of the web, server-side scripting was almost exclusively performed by using a combination of C programs, Perl scripts, and shell scripts using the Common Gateway Interface (CGI). Those scripts were executed by the operating system, and the results were served back by the webserver. Many modern web servers can directly execute on-line scripting languages such as ASP, JSP, Perl, PHP and Ruby either by the web server itself or via extension modules (e.g. mod_perl or mod_php) to the webserver. For example, WebDNA includes its own embedded database system. Either form of scripting (i.e., CGI or direct execution) can be used to build up complex multi-page sites, but direct execution usually results in less overhead because of the lower number of calls to external interpreters.
+                    
+                    Dynamic websites sometimes use custom web application servers, such as Glassfish, Plack and Python's "Base HTTP Server" library, although some may not consider this to be server-side scripting. When using dynamic web-based scripting techniques, developers must have a keen understanding of the logical, temporal, and physical separation between the client and the server. For a user's action to trigger the execution of server-side code, for example, a developer working with classic ASP must explicitly cause the user's browser to make a request back to the webserver.
+                    
+                    Server-side scripts are completely processed by the servers instead of clients. When clients request a page containing server-side scripts, the application server processes the scripts and returns an HTML page to the client.
+                    Another similar to SSR technique of generating content for a website is using Server-side generation. This technique use application that create static html pages and then those files are send to the server. File generation can happen on completely different computer for example using Continuous delivery. Example of SSG tools are Jekyll, Gatsby or Eleventy. Those sites are often hosted on Netlify or GitHub pages. GitHub also supports Jekyll projects where it automatically build the site when changes are added to git.  
+                    </p>
+                    <h4>Client side concept</h4>
+                    <p id="2">Client side and server side are web development terms that describe where application code runs. Web developers will also refer to this distinction as the frontend vs. the backend, although client-side/server-side and frontend/backend aren't quite the same. In a serverless architecture, the serverless vendor hosts and assigns resources to all server-side processes, and the processes scale up as application usage increases.<a href="#3">compenents of web application</a>
+                    </p>
+                    <img src="1.jpg"alt="web" id="img1" style="width: 400px;margin-left: 600px;"/>
+                    <h4>Components of web application</h4>
+                    <p id="3">
+                        The web application architecture describes the interactions between applications, databases, and middleware systems on the web. It ensures that multiple applications work simultaneously. Let us understand it with a simple example of opening a webpage.
+
+                        As soon as the user hits the go button after typing a URL in the address bar of a web browser, it requests for that particular web address. The server sends files to the browser as a response to the request made. The browser then executes those files to show the requested page.
+                        
+                        Finally, the user is able to interact with the website. The most important thing to note here is the code parsed by the web browser. A web app works in a similar way.
+                        
+                        This code might or might not have specific instructions that tell the browser how to respond with respect to the different types of user inputs.
+                        
+                        Hence, a web application architecture has to include all the sub-components as well as the external applications interchanges for the entire software application, in the aforementioned case, which is a website.
+                        
+                        The web application architecture is indispensable in the modern world because a major portion of the global network traffic, as well as most of the apps and devices, make use of web-based communication.
+                    </p>
+            </div>
+            <div class="d"><h4>Type of web content</h4>
+                <p id="4">Even though we may embed various protocols within web pages, the "web page" composed of "HTML" (or some variation) content is still the dominant way whereby we share content. And while there are many web pages with localized proprietary structure (most usually, business websites), many millions of websites abound that are structured according to a common core idea.
+
+                    Blogs are a type of websites that contain mainly web pages authored in HTML (although the blogger may be completely unaware that the web pages are composed using HTML due to the blogging tool that may be in use). Millions of people use blogs online; a blog is now the new "home page", that is, a place where a persona can reveal personal information, and/or build a concept as to who this persona is. Even though a blog may be written for other purposes, such as promoting a business, the core of a blog is the fact that it is written by a "person" and that person reveals information from her/his perspective. Blogs have become a mighty weapon used by content marketers who desire to increase their site's traffic, as well as, rank in the search engine result pages (SERPs). Modern research from Technorati shows that blogs now outrank social networks for consumer influence (Technorati's 2013 Digital Influence Report data).
+                    
+                    Search engine sites are composed mainly of HTML content, but also has a typically structured approach to revealing information. A Search Engine Results Page (SERP) displays a heading, usually the name of the search engine itself, and then a list of websites and their web addresses. The web addresses are listed by their order of relevance according to the search query. Searchers typically type in keywords or keyword phrases to find or search what they are looking for on the web.
+                    
+                    Discussion boards are sites composed of "textual" content organized by HTML or some variation that can be viewed in a web browser. The driving mechanism of a discussion board is the fact that users are registered and once registered can write posts. Often a discussion board is made up of posts asking some question to which other users may provide answers to those questions.
+                    
+                    Ecommerce sites are primarily composed of textual material and embedded with graphics displaying a picture of the item(s) for sale. However, there are extremely few sites that are composed page-by-page using some variant of HTML. Generally, webpages are formed as they are being served from a database to a customer using a web browser. However, the user sees the mainly text document arriving as a webpage to be viewed in a web browser. Ecommerce sites are usually organized by the software we identify as a "shopping cart". </p>
+            </div>
+            <div class="d">
+                <h4>Overview of http-http request response</h4>
+                <p id="5">HTTP messages are how data is exchanged between a server and a client. There are two types of messages: requests sent by the client to trigger an action on the server, and responses, the answer from the server.
+
+                    HTTP messages are composed of textual information encoded in ASCII, and span over multiple lines. In HTTP/1.1, and earlier versions of the protocol, these messages were openly sent across the connection. In HTTP/2, the once human-readable message is now divided up into HTTP frames, providing optimization and performance improvements.
+                    
+                    Web developers, or webmasters, rarely craft these textual HTTP messages themselves: software, a Web browser, proxy, or Web server, perform this action. They provide HTTP messages through config files (for proxies or servers), APIs (for browsers), or other interfaces.</p>
+            </div>
+            <div class="d">
+                <h4>Generation of dynamic web page</h4>
+                <p id="5">A server-side dynamic web page is a web page whose construction is controlled by an application server processing server-side scripts. In server-side scripting, parameters determine how the assembly of every new web page proceeds, including the setting up of more client-side processing.
+
+                    A client-side dynamic web page processes the web page using JavaScript running in the browser as it loads. JavaScript can interact with the page via Document Object Model, or DOM, to query page state and modify it. Even though a web page can be dynamic on the client-side, it can still be hosted on a static hosting service such as GitHub Pages or Amazon S3 as long as there isn't any server-side code included.
+                    
+                    A dynamic web page is then reloaded by the user or by a computer program to change some variable content. The updating information could come from the server, or from changes made to that page's DOM. This may or may not truncate the browsing history or create a saved version to go back to, but a dynamic web page update using AJAX technologies will neither create a page to go back to, nor truncate the web browsing history forward of the displayed page. Using AJAX, the end user gets one dynamic page managed as a single page in the web browser while the actual web content rendered on that page can vary. The AJAX engine sits only on the browser requesting parts of its DOM, the DOM, for its client, from an application server.
+                    
+                    DHTML is the umbrella term for technologies and methods used to create web pages that are not static web pages, though it has fallen out of common use since the popularization of AJAX, a term which is now itself rarely used. Client-side-scripting, server-side scripting, or a combination of these make for the dynamic web experience in a browser. </p>
+            </div>
+            <div class="d">
+                <h4>Application Server</h4>
+                <p id="6">An application server is a server that hosts applications.[1]
+
+                    Application server frameworks are software frameworks for building application servers. An application server framework provides both facilities to create web applications and a server environment to run them.
+                    
+                    An application server framework contains a comprehensive service layer model. It includes a set of components accessible to the software developer through a standard API defined for the platform itself. For Web applications, these components usually run in the same environment as their web server(s), and their main job is to support the construction of dynamic pages. However, many application servers do more than generate web pages: they implement services such as clustering, fail-over, and load-balancing, so developers can focus on implementing the business logic.[2]
+                    
+                    In the case of Java application servers, the server behaves like an extended virtual machine for running applications, transparently handling connections to the database on one side, and, often, connections to the Web client on the other.[citation needed]
+                    
+                    Other uses of the term may refer to the services that a server makes available or the computer hardware on which the services run.</p>
+            </div>
+            <div class="d">
+            <h4>Application Server</h4>
+            <p id="7">
+                An application server is a server that hosts applications.[1]
+
+Application server frameworks are software frameworks for building application servers. An application server framework provides both facilities to create web applications and a server environment to run them.
+
+An application server framework contains a comprehensive service layer model. It includes a set of components accessible to the software developer through a standard API defined for the platform itself. For Web applications, these components usually run in the same environment as their web server(s), and their main job is to support the construction of dynamic pages. However, many application servers do more than generate web pages: they implement services such as clustering, fail-over, and load-balancing, so developers can focus on implementing the business logic.[2]
+
+In the case of Java application servers, the server behaves like an extended virtual machine for running applications, transparently handling connections to the database on one side, and, often, connections to the Web client on the other.[citation needed]
+
+Other uses of the term may refer to the services that a server makes available or the computer hardware on which the services run
+            </p>
+            </div>
+            <div class="d">
+                <h4>Web security</h4>
+                <p id="8">Ensuring that your website or open web application is secure is critical. Even simple bugs in your code can result in private information being leaked, and bad people are out there trying to find ways to steal data. The web security-oriented articles listed here provide information that may help you secure your site and its code from attacks and data theft.</p>
+            </div>
+            
+    </body>
+</html>
