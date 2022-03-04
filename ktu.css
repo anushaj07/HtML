@@ -1,0 +1,72 @@
+.navimg{
+width:2rem;
+}
+.navbar-brand{
+		color:#3F3351;
+}
+.navbar-nav{
+	margin-left: auto
+
+}
+.a{
+	margin-top:40px;
+	width: 75%;
+	padding-left: 15px;
+	float: left;
+}
+.apj{
+	
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.b{	
+	background-color:#EEEEEE;
+	color:#89B5AF;
+}
+.ins{
+	color:#C85C5C;
+}
+.c:hover {
+  background-color: #EEEEEE;
+}
+.d:hover {
+  background-color: #EEEEEE;
+}
+.e:hover {
+  background-color: #EEEEEE;
+}
+.stu{
+	color:#F9975D;
+}
+.uni{
+	color:#FBD148;
+}
+.login{
+	margin-top:50px;
+	margin-left:50px;
+}
+.fa-university{
+	color:#C85C5C;
+	float:left;
+	width:1.5em;
+}
+.fa-user-graduate{
+	float:left;
+	width:1.5em;
+	color:#F9975D;
+}
+.fa-archway{
+	float:left;
+	width:1.5em;
+	color:#FBD148;
+}
+.login{
+	padding-left:20px;
+}
+.nav-link:hover{
+	background-color: #EEEEEE;
+}
+.card{
+border:0;
+}
